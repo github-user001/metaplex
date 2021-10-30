@@ -1,0 +1,26 @@
+{
+  "program": {
+    "uuid": "EfYrd1",
+    "config": "EfYrd17mBap5Wcwu587es3mW7atEPAHxdYEU6YJMFozZ"
+  },
+  "items": {
+    "0": {
+      "link": "https://arweave.net/opvp8UfPlPDWtH2TraXIlPHT6IWpPNkqTqMbjFOdL78",
+      "name": "Waifu #911",
+      "onChain": true
+    },
+    "1": {
+      "link": "https://arweave.net/8fFKz6Rst-Z57zrWSTcG6L_MaJqgXreSv_3_V3YuMKY",
+      "name": "Waifu #1",
+      "onChain": true
+    },
+    "2": {
+      "link": "https://arweave.net/fQNVU8rRYoBKmvq4LeoJ9AbTAeD1B-kT8kpHEDDX084",
+      "name": "Waifu #2",
+      "onChain": true
+    }
+  },
+  "env": "devnet",
+  "cacheName": "temp",
+  "authority": "662ezJ2dRZr8DKoBrb6RZGPTdtLcBfJqho8pY7HBgtj2"
+}
