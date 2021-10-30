@@ -29,7 +29,6 @@ hfuzz_target
 hfuzz_workspace
 **/*.so
 **/.DS_Store
-.cache
 js/packages/web/.env
 traits
 traits-configuration.json
