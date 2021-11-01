@@ -1,1 +1,513 @@
-{"program":{"uuid":"3JxNay","config":"3JxNaySrtVjxAQ1mrs9hmup6dG1xDkp2vVkKuNBhB6LN"},"items":{"0":{"link":"https://arweave.net/gX5yZnkl3cNkvZHyftAKPe76ljPTmr8JLCK9mtkpK7g","name":"Waifu #0","onChain":true},"1":{"link":"https://arweave.net/_DNzcpuJajq-s_ATxplLgMC0J4Ql9WkaYG8A-hP4uFg","name":"Waifu #1","onChain":true},"2":{"link":"https://arweave.net/09T01Q84nvvDfYOrKp9iPXRjmoKPaoG0_cMALI7RFtQ","name":"Waifu #2","onChain":true},"3":{"link":"https://arweave.net/nSg8uGc4Bhi3U1Qj8I9eWGWDRmfqTM8FbKytWK6cUf8","name":"Waifu #3","onChain":true},"4":{"link":"https://arweave.net/jaeW9WohWS41VPHk6oW68d5YzmYtxLLNexddjNjCbAU","name":"Waifu #4","onChain":true},"5":{"link":"https://arweave.net/IuP9B3-4uJkY4nBuK6nUKccdhS3E_fKzI0d6TamGzg0","name":"Waifu #5","onChain":true},"6":{"link":"https://arweave.net/uPFsPAAbz-RoRFuh89UNMt_k6OwVjeWLBqXd8paGJEM","name":"Waifu #6","onChain":true},"7":{"link":"https://arweave.net/6GGJ1QLEqZqYqTrSrj6MqW7FFH1YLNI80qUrdXVqmws","name":"Waifu #7","onChain":true},"8":{"link":"https://arweave.net/LHA1iNUUMcWMYqScARvi06wQbtwWUQzkADKVvN6-PU4","name":"Waifu #8","onChain":true},"9":{"link":"https://arweave.net/fm7IG5WrMyplZ3Fz64A74bk096VNH3pkRfDsP9UDey8","name":"Waifu #9","onChain":true},"10":{"link":"https://arweave.net/H7VXRLYrpz9oamkHnaRGnkw3cxEBuEpuD6FUTkkEw9E","name":"Waifu #10","onChain":true},"11":{"link":"https://arweave.net/4NiLcOr1jygRJgjFIjOyZQZkU9n3b4Bz0tPB3_7IvQs","name":"Waifu #11","onChain":true},"12":{"link":"https://arweave.net/hAkvvZG8AoHK-o89Te-JNY0KIa4RtlY1XnVpB_c9zQI","name":"Waifu #12","onChain":true},"13":{"link":"https://arweave.net/4nwLe4oyE3tftF0dMmgZGXJkrhPbWk-gAfUy9X0PRGY","name":"Waifu #13","onChain":true},"14":{"link":"https://arweave.net/chw8gYPiXhaB9vBEsEd7Yftr8jvWUjJHtcxZXHh4wDc","name":"Waifu #14","onChain":true},"15":{"link":"https://arweave.net/Rv3xZEG8LcZVIUygKhczECmUUTOEDjPbCjBmcqrSnIc","name":"Waifu #15","onChain":true},"16":{"link":"https://arweave.net/C6-Ddl3arfyGz2Pm-Lp_99FliDrQq9Fi2wNqex9qjPE","name":"Waifu #16","onChain":true},"17":{"link":"https://arweave.net/TzKWif57wGYF_oLoCOPzjBZPZlVa1E2zrEFSH88jZmY","name":"Waifu #17","onChain":true},"18":{"link":"https://arweave.net/uewGtTknRMPdfPTqczE1UXjJFxbVNMEGDOIegR1K6n8","name":"Waifu #18","onChain":true},"19":{"link":"https://arweave.net/rmLRA9aOQJCrPCBPXoDXcGbP-UjyjPKxIgdm8lrbR40","name":"Waifu #19","onChain":true}},"env":"devnet","cacheName":"temp","authority":"662ezJ2dRZr8DKoBrb6RZGPTdtLcBfJqho8pY7HBgtj2","candyMachineAddress":"EyvCGvPMUUqhBF6rSaXCJfMB9RPpfrznwhARAG7KfPje","startDate":1633075200}
+{
+  "program": {
+    "uuid": "4jNYvU",
+    "config": "4jNYvUdjKcVdsKcgcadwq96y8wjtCFNSsdeY1KRiwxqa"
+  },
+  "items": {
+    "0": {
+      "link": "https://arweave.net/5bIBvXCSdogXjc8YEwjCm_6_DVg5cUiz8M8lpqS3vEM",
+      "name": "Waifu #0",
+      "onChain": true
+    },
+    "1": {
+      "link": "https://arweave.net/ywoNCWdJlbLFU9BmXYfBOpF7mWLWuVsPay2tgZ-v1CA",
+      "name": "Waifu #1",
+      "onChain": true
+    },
+    "2": {
+      "link": "https://arweave.net/soRjSA66YQlTkpIXr3Oj1y6bxmltkjaKxWujALWebvc",
+      "name": "Waifu #2",
+      "onChain": true
+    },
+    "3": {
+      "link": "https://arweave.net/lSs6IPBESz5FNglNElqXdYdjl16PszLkXJHy2AZefp0",
+      "name": "Waifu #3",
+      "onChain": true
+    },
+    "4": {
+      "link": "https://arweave.net/jkR6VnUyPZ9nq5mt8a8aHsa_lhEJ7HnQ4bsr6h5GXbQ",
+      "name": "Waifu #4",
+      "onChain": true
+    },
+    "5": {
+      "link": "https://arweave.net/yL6uPzPweMLW9L2zdTr_wjbmtLez3U_flReI41Trz1I",
+      "name": "Waifu #5",
+      "onChain": true
+    },
+    "6": {
+      "link": "https://arweave.net/gLO511SJdUIhTKBPGvBj9UNOHOmQmgWd2SFQccdtKqI",
+      "name": "Waifu #6",
+      "onChain": true
+    },
+    "7": {
+      "link": "https://arweave.net/_nLX9xcHyaD5-4MFjd6fAejjEWXaz2xfvOhaooLtfPo",
+      "name": "Waifu #7",
+      "onChain": true
+    },
+    "8": {
+      "link": "https://arweave.net/4iJJegnGOMTfH-VvwTNlgaoRgsefhInUz4TlewrgjaQ",
+      "name": "Waifu #8",
+      "onChain": true
+    },
+    "9": {
+      "link": "https://arweave.net/3pM5BD43Qa5H6JGqebA7LX9O6omgp3Pi4gdGJD5OtnM",
+      "name": "Waifu #9",
+      "onChain": true
+    },
+    "10": {
+      "link": "https://arweave.net/HEF5HFya8y1BXpDHSfxLtLKMMKNnA_APEXjvkcSHkAg",
+      "name": "Waifu #10",
+      "onChain": true
+    },
+    "11": {
+      "link": "https://arweave.net/p0UM-7Twtdc15DkhZ5XL8uylxxssWqoDc-3l9qdtK54",
+      "name": "Waifu #11",
+      "onChain": true
+    },
+    "12": {
+      "link": "https://arweave.net/SyV1wadqpaI_xDCzz-Kg87k7GQ7OgqBO-SV5gdcuUdo",
+      "name": "Waifu #12",
+      "onChain": true
+    },
+    "13": {
+      "link": "https://arweave.net/gOgR1BR-n-TnsdyPaTELreEceU4q5kF6zOIyN4AOfU0",
+      "name": "Waifu #13",
+      "onChain": true
+    },
+    "14": {
+      "link": "https://arweave.net/De1ALabG9z2yzyL_jIUW7yhDu2tUUWYhHyyx1iUgt5g",
+      "name": "Waifu #14",
+      "onChain": true
+    },
+    "15": {
+      "link": "https://arweave.net/GRAqV3wBZPEuPL0oXGXhUNP66fxgelb8O49bZXgyfgo",
+      "name": "Waifu #15",
+      "onChain": true
+    },
+    "16": {
+      "link": "https://arweave.net/zUPLjVwx3It42DcUobseo7yDx1VGZCs7tkyqFtGoFDk",
+      "name": "Waifu #16",
+      "onChain": true
+    },
+    "17": {
+      "link": "https://arweave.net/oWkYITjV1Z68psjNKBNVTCMdB3jbKoxXY6EHrxdRdlw",
+      "name": "Waifu #17",
+      "onChain": true
+    },
+    "18": {
+      "link": "https://arweave.net/zBAJjcBmNh9pZsdkQnKu8spusHg4JxYBvfd8nTcR4gQ",
+      "name": "Waifu #18",
+      "onChain": true
+    },
+    "19": {
+      "link": "https://arweave.net/r6bwpPLHUG4h2YlFCX4NW71dLAT-7Gj6KkIrQAAl084",
+      "name": "Waifu #19",
+      "onChain": true
+    },
+    "20": {
+      "link": "https://arweave.net/AZ1OLUyWIiIIB5njYrRxvZlQol7B3wmojjOgxucddfU",
+      "name": "Waifu #20",
+      "onChain": true
+    },
+    "21": {
+      "link": "https://arweave.net/5RA3OxouXbhOaeac7JEqkXcG8t9-z-wl0x8ETJB1oSY",
+      "name": "Waifu #21",
+      "onChain": true
+    },
+    "22": {
+      "link": "https://arweave.net/e1GsbmC6nAikJwO8CS-3JmWUp6G8MSBM9TWMlYap_HU",
+      "name": "Waifu #22",
+      "onChain": true
+    },
+    "23": {
+      "link": "https://arweave.net/1WjAm900mrIgs3Owv0zlvXHkl4jh9fYP_caQDXk1ohM",
+      "name": "Waifu #23",
+      "onChain": true
+    },
+    "24": {
+      "link": "https://arweave.net/T5TDq4HIwf2ahJB-rGeSsOF5nfR6Rzt62bUznDKFeBE",
+      "name": "Waifu #24",
+      "onChain": true
+    },
+    "25": {
+      "link": "https://arweave.net/pExI2h0jhCPdvJHsMgQ5qT7C5V6YJLzYS1SWiZZU68k",
+      "name": "Waifu #25",
+      "onChain": true
+    },
+    "26": {
+      "link": "https://arweave.net/zIfo9Xll6tNfkJQTE72QxmEUAAAdoK-yzpZH2V63_XA",
+      "name": "Waifu #26",
+      "onChain": true
+    },
+    "27": {
+      "link": "https://arweave.net/ukQ41bvfrNjMDbjyQx_bYgwEpmYuNJyW7ggWKWCnE5k",
+      "name": "Waifu #27",
+      "onChain": true
+    },
+    "28": {
+      "link": "https://arweave.net/1tz5ZRNa2KR1DtN4ToonOlX0E4bJDBN12Uqyr74W_cA",
+      "name": "Waifu #28",
+      "onChain": true
+    },
+    "29": {
+      "link": "https://arweave.net/yvv75JlDPoCB_3h8xfl3coHyJjiUmXrmAH_hEqhIfZM",
+      "name": "Waifu #29",
+      "onChain": true
+    },
+    "30": {
+      "link": "https://arweave.net/9P2-vdXqGWyUdVmb5FjaEDLGMK5o6uoLOslowGf7h7g",
+      "name": "Waifu #30",
+      "onChain": true
+    },
+    "31": {
+      "link": "https://arweave.net/5whfSBDuVEsPu6v6O-B67lKsc5sriIL7WgXJ9HWurQk",
+      "name": "Waifu #31",
+      "onChain": true
+    },
+    "32": {
+      "link": "https://arweave.net/JQqm-Web0nCn0a1k1NelMIyWJV6xyjLcGHsxcgy5RKg",
+      "name": "Waifu #32",
+      "onChain": true
+    },
+    "33": {
+      "link": "https://arweave.net/u-GUujwzsV9hqsIYDZ2EyYdertflaWIPdz85PJeeCXQ",
+      "name": "Waifu #33",
+      "onChain": true
+    },
+    "34": {
+      "link": "https://arweave.net/tpKtHW4L1b8B_ecc7btphpl_Ps5btENjC3L-wtkQ330",
+      "name": "Waifu #34",
+      "onChain": true
+    },
+    "35": {
+      "link": "https://arweave.net/f2tQGGqQ9t75PK0igTnHY30VnDvuE_EefdIqHYYsJvg",
+      "name": "Waifu #35",
+      "onChain": true
+    },
+    "36": {
+      "link": "https://arweave.net/BlUGIzjfB4CQitQAbDR6es1Tu0XogPYo0Zr4NtfJ538",
+      "name": "Waifu #36",
+      "onChain": true
+    },
+    "37": {
+      "link": "https://arweave.net/7B-ovHCpfIAHIXm6d-VckUwEX3c9HXxLRqzci5d5vVo",
+      "name": "Waifu #37",
+      "onChain": true
+    },
+    "38": {
+      "link": "https://arweave.net/W2JBLEi9cZdZtONWRYiuis0zFi9UgkEiK1WwXwPbFlo",
+      "name": "Waifu #38",
+      "onChain": true
+    },
+    "39": {
+      "link": "https://arweave.net/prequf1da9pizGu8tW2dbP9m4FHl0KvDG9TL1VTdXMU",
+      "name": "Waifu #39",
+      "onChain": true
+    },
+    "40": {
+      "link": "https://arweave.net/mJGONbuezXbsfAe4u6QJhYrOlDPMort6nn7X5SM5cRg",
+      "name": "Waifu #40",
+      "onChain": true
+    },
+    "41": {
+      "link": "https://arweave.net/YckVvKPc5rxGw-xHu0pC2L0AoXwl80joWeyTk4rhxnI",
+      "name": "Waifu #41",
+      "onChain": true
+    },
+    "42": {
+      "link": "https://arweave.net/U9b7M-xB1-21-kIspXKOoQI_CXvf8g3-Ce6SOwphp74",
+      "name": "Waifu #42",
+      "onChain": true
+    },
+    "43": {
+      "link": "https://arweave.net/XvxbAhwIuCsJ7n-1mtQVY0KcWo3h1to1UQgreOdDRBk",
+      "name": "Waifu #43",
+      "onChain": true
+    },
+    "44": {
+      "link": "https://arweave.net/OevY37HMY16_LvX-Tcunzcl2gKSLR6p0l_GxPWHp3y0",
+      "name": "Waifu #44",
+      "onChain": true
+    },
+    "45": {
+      "link": "https://arweave.net/08_pACqSkJwLJBjl1clqdkLruBwk-41eZr-IE1FuD2M",
+      "name": "Waifu #45",
+      "onChain": true
+    },
+    "46": {
+      "link": "https://arweave.net/SPzHWr_Ku-wihIWUVmhbhpFPv2E3i4AanQSkYvl2fF4",
+      "name": "Waifu #46",
+      "onChain": true
+    },
+    "47": {
+      "link": "https://arweave.net/H5stK26jCsFps0W51c88YOUbSYDpYAtgu3Zt5X3icSI",
+      "name": "Waifu #47",
+      "onChain": true
+    },
+    "48": {
+      "link": "https://arweave.net/FEDZhZlgYnPzjInl0no9BnhUueCJYK0rCJfuAUzSXwQ",
+      "name": "Waifu #48",
+      "onChain": true
+    },
+    "49": {
+      "link": "https://arweave.net/E470j9ynW49lq_eks91q-0ylrXGGXw0QBbXy_860vhs",
+      "name": "Waifu #49",
+      "onChain": true
+    },
+    "50": {
+      "link": "https://arweave.net/PzUwIf2Iou4IwOHD9uJrl7z0BnEbdnGPJXgwLfHu6fo",
+      "name": "Waifu #50",
+      "onChain": true
+    },
+    "51": {
+      "link": "https://arweave.net/Baxa9ArQBbbiS3c75kTnI61-8dwbrMnMLsxCcZmjbDE",
+      "name": "Waifu #51",
+      "onChain": true
+    },
+    "52": {
+      "link": "https://arweave.net/djFfcaS2BxVL0pVFcILRe_vi52EsC6AagpKog9rjXDc",
+      "name": "Waifu #52",
+      "onChain": true
+    },
+    "53": {
+      "link": "https://arweave.net/i1eviDQv0yflonyzDUIUa8ZMi-I1XWSc0FY--8jUBI0",
+      "name": "Waifu #53",
+      "onChain": true
+    },
+    "54": {
+      "link": "https://arweave.net/cIA4Or14IOVKSDM_WYLIxuP-UTc5Z6DuxKeBBfPrDTw",
+      "name": "Waifu #54",
+      "onChain": true
+    },
+    "55": {
+      "link": "https://arweave.net/k2ChcdaKmL58DkPn_yCf-PZQC9vhpK-y7RLfK-Y9f_k",
+      "name": "Waifu #55",
+      "onChain": true
+    },
+    "56": {
+      "link": "https://arweave.net/wQMH47FNx37BPWgFiTsouGn41s-LqoIvZ7MvP2h6zpE",
+      "name": "Waifu #56",
+      "onChain": true
+    },
+    "57": {
+      "link": "https://arweave.net/zrZJ5pxJB2aKQhS6Y2hFKU5Wwbjz3nl4K8TTeRsOnc0",
+      "name": "Waifu #57",
+      "onChain": true
+    },
+    "58": {
+      "link": "https://arweave.net/Ts8qAP-JiHhohfKDIKSwTVerCNLdPv4f1yxAjcWS4lU",
+      "name": "Waifu #58",
+      "onChain": true
+    },
+    "59": {
+      "link": "https://arweave.net/T3udgzW8Whzh_P0GJf7LUVJ9oNwZcbDQGP4zX-tqomA",
+      "name": "Waifu #59",
+      "onChain": true
+    },
+    "60": {
+      "link": "https://arweave.net/LyuUgJUQyGo2iKjM-csOIItS29HWz1_W7-y81aI5498",
+      "name": "Waifu #60",
+      "onChain": true
+    },
+    "61": {
+      "link": "https://arweave.net/h5dZ4H3VYVuvD3JSZE7EWfvMN3FAsJufHE5XBLR81eA",
+      "name": "Waifu #61",
+      "onChain": true
+    },
+    "62": {
+      "link": "https://arweave.net/Z_4KdFIBeVeBpE9orMkbFpMrSY-yRaIILOBIPDYVnbw",
+      "name": "Waifu #62",
+      "onChain": true
+    },
+    "63": {
+      "link": "https://arweave.net/zXp6vfhVfiQSNk9Kg4hfTF_LSzivyLfWjXRFgP5jBfg",
+      "name": "Waifu #63",
+      "onChain": true
+    },
+    "64": {
+      "link": "https://arweave.net/aXKBRaaB6OzE_rcNuaDlYYREDZjxJWXIp3w06vczF60",
+      "name": "Waifu #64",
+      "onChain": true
+    },
+    "65": {
+      "link": "https://arweave.net/18g2GhKMtmLBCNCxmzadA2ls6N79dF7-zf5dYT_d6Sc",
+      "name": "Waifu #65",
+      "onChain": true
+    },
+    "66": {
+      "link": "https://arweave.net/w3YjaWs9-HAn-SpxlYL61Gg0Pr6sX8ZjP-SO6NiM3_E",
+      "name": "Waifu #66",
+      "onChain": true
+    },
+    "67": {
+      "link": "https://arweave.net/915k8F2sGiJ8jL-0O68JaXzwPOUk435rHIO1CJ8AlSs",
+      "name": "Waifu #67",
+      "onChain": true
+    },
+    "68": {
+      "link": "https://arweave.net/LHVx-Py4zi29ngFO_aFDZPX1XvOiHNu6LQnFQzZ-cfU",
+      "name": "Waifu #68",
+      "onChain": true
+    },
+    "69": {
+      "link": "https://arweave.net/5h6o0EPkRwjOL3QLNIRegrQAbEaArQiivSk9660fJr4",
+      "name": "Waifu #69",
+      "onChain": true
+    },
+    "70": {
+      "link": "https://arweave.net/3KAMKquY89zL6TAbtZpyK1PXiN7ftFFmHc2sYzayr1o",
+      "name": "Waifu #70",
+      "onChain": true
+    },
+    "71": {
+      "link": "https://arweave.net/uGtaQBZtjbkOfrvuicQW3BRsEdN5tzBME5UfGpjsC-A",
+      "name": "Waifu #71",
+      "onChain": true
+    },
+    "72": {
+      "link": "https://arweave.net/fiYyb7MAwZxheT1cht41stGLSNRe4s2YUomP4oqnecU",
+      "name": "Waifu #72",
+      "onChain": true
+    },
+    "73": {
+      "link": "https://arweave.net/400CrO7Lgj33y9WKRlRdyjp87ajaWUWJYiToCymA2-8",
+      "name": "Waifu #73",
+      "onChain": true
+    },
+    "74": {
+      "link": "https://arweave.net/3YwnjTbw3aRl3zdme9ikzM8AM0sxpJW3l7PuV3uZZPM",
+      "name": "Waifu #74",
+      "onChain": true
+    },
+    "75": {
+      "link": "https://arweave.net/JGoz02mUTpYBVXd9zavYFGi_Y3cvZqAqAG96SI6TRa8",
+      "name": "Waifu #75",
+      "onChain": true
+    },
+    "76": {
+      "link": "https://arweave.net/Oy14GVqVj0ykGhcc5IFTqAepbpuKV_-SXhcy4-gsHRw",
+      "name": "Waifu #76",
+      "onChain": true
+    },
+    "77": {
+      "link": "https://arweave.net/FkYZCuT8MyRaYLNitCg-cpsuPDDMiArEwFc5T7xov_w",
+      "name": "Waifu #77",
+      "onChain": true
+    },
+    "78": {
+      "link": "https://arweave.net/ivuL796QE5oZ9p65I2NOu6bCozsQYuhI5U31d7chtp8",
+      "name": "Waifu #78",
+      "onChain": true
+    },
+    "79": {
+      "link": "https://arweave.net/hLdstaC0OW1piAFFw7w7jnBrmpKMkvW3vLi2kMp0EAY",
+      "name": "Waifu #79",
+      "onChain": true
+    },
+    "80": {
+      "link": "https://arweave.net/glcWwS0cqaqdL8TgK4FCauzZEVSnK2ArKPXUpnx4eLs",
+      "name": "Waifu #80",
+      "onChain": true
+    },
+    "81": {
+      "link": "https://arweave.net/xQREpexONlxgTzKiZg1zTpSUl3lKAgYsMShD_sCgJpI",
+      "name": "Waifu #81",
+      "onChain": true
+    },
+    "82": {
+      "link": "https://arweave.net/Bu1i4qBftDCJ2PcSNh-O1D72HyeaU8goHuw7BP0JOR8",
+      "name": "Waifu #82",
+      "onChain": true
+    },
+    "83": {
+      "link": "https://arweave.net/rHbQ9hImH4eSCgcNJiaQMRAszGGG5hOEeMqyT67Dlik",
+      "name": "Waifu #83",
+      "onChain": true
+    },
+    "84": {
+      "link": "https://arweave.net/PrR4n3EQPZSCXnBnVzlv5FlgWCGfs5TBGy1sM812jWo",
+      "name": "Waifu #84",
+      "onChain": true
+    },
+    "85": {
+      "link": "https://arweave.net/XnYSVT69p53V4CSh1S732Sxhc1k2ZgeZrvh66674o34",
+      "name": "Waifu #85",
+      "onChain": true
+    },
+    "86": {
+      "link": "https://arweave.net/omRevd5xIFXv5TyaSReQ9-8Beb_0q7jf2TXrRygzah8",
+      "name": "Waifu #86",
+      "onChain": true
+    },
+    "87": {
+      "link": "https://arweave.net/3R9se6r2RFrzk11JvCMhj-XKasgGtNCTIMmiupMTJ6M",
+      "name": "Waifu #87",
+      "onChain": true
+    },
+    "88": {
+      "link": "https://arweave.net/Lj0xr0xk3oWDPWFOkxWR7eWpKTzxPg_OBpyHEUqE4kU",
+      "name": "Waifu #88",
+      "onChain": true
+    },
+    "89": {
+      "link": "https://arweave.net/J7dHlFLwpXrbzsdPcfB8WXC4s6-swLuTM0_PIlcSCr8",
+      "name": "Waifu #89",
+      "onChain": true
+    },
+    "90": {
+      "link": "https://arweave.net/f7WHja9kTmQ1o0benxq9oCf1FUj8QuNLYQVYLSTF3Ic",
+      "name": "Waifu #90",
+      "onChain": true
+    },
+    "91": {
+      "link": "https://arweave.net/YE9ALyze1syjoXGXxOuwOwYf4hvuwaiAAeBQC5NhcmU",
+      "name": "Waifu #91",
+      "onChain": true
+    },
+    "92": {
+      "link": "https://arweave.net/QfAOCKBYWqrxEMVXEn-Xy-DksLCMCMpivjZEE8fsGOQ",
+      "name": "Waifu #92",
+      "onChain": true
+    },
+    "93": {
+      "link": "https://arweave.net/G9if8GLkfDGzI-peUJFnjVHb1rp6_Tjb0szMuxzwYbA",
+      "name": "Waifu #93",
+      "onChain": true
+    },
+    "94": {
+      "link": "https://arweave.net/GrRwyLGnQi9dLDX8UrXIM2a2gi9P2Km82ryLxIlSb7w",
+      "name": "Waifu #94",
+      "onChain": true
+    },
+    "95": {
+      "link": "https://arweave.net/oly4h7f_gN_LuSF8tea53csOwzRsTLi1j-77G0T5nxA",
+      "name": "Waifu #95",
+      "onChain": true
+    },
+    "96": {
+      "link": "https://arweave.net/LU4NExARLJFbGxXTrImX61N6OWXvyJd4m58moiIwECY",
+      "name": "Waifu #96",
+      "onChain": true
+    },
+    "97": {
+      "link": "https://arweave.net/9Dqr1dkfS1SXXDm54tuGLIdde4INNxirG6OMWXKB-4w",
+      "name": "Waifu #97",
+      "onChain": true
+    },
+    "98": {
+      "link": "https://arweave.net/pzV8RQNO3dtvp7cLnB_8VL7GZwIk4WqGy-1Y7sP_MBs",
+      "name": "Waifu #98",
+      "onChain": true
+    },
+    "99": {
+      "link": "https://arweave.net/jziBV_yfXiEkqwsS26aFwXsloFoF3oZpwuakhqAIA30",
+      "name": "Waifu #99",
+      "onChain": true
+    }
+  },
+  "env": "devnet",
+  "cacheName": "temp",
+  "authority": "662ezJ2dRZr8DKoBrb6RZGPTdtLcBfJqho8pY7HBgtj2",
+  "candyMachineAddress": "5t6TJposVkFWk379KwjYx9q772avuwtvcRq4LQxrTdHi",
+  "startDate": 1633064400
+}
