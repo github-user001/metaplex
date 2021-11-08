@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "upload:assets": "ts-node ./js/packages/cli/src/candy-machine-cli.ts upload assets --keypair ~/.config/solana/id.json",
+    "create:machine": "ts-node ./js/packages/cli/src/candy-machine-cli.ts create_candy_machine --keypair ~/.config/solana/id.json --price 1",
+    "modify:release-date": "ts-node ./js/packages/cli/src/candy-machine-cli.ts update_candy_machine --keypair ~/.config/solana/id.json --date '1 Oct 2021 00:00:00 EST'"
+  },
+  "dependencies": {
+    "ts-node": "10.4.0"
+  }
+}

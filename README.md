@@ -6,11 +6,22 @@
 
 GET R DONE
 
-Metaplex is a protocol built on top of Solana that allows:
+## Steps to greatness
 
-ts-node ./js/packages/cli/src/candy-machine-cli.ts upload assets --keypair ~/.config/solana/id.json
-: get the Candy Machine Config from the above
-ts-node ./js/packages/cli/src/candy-machine-cli.ts create_candy_machine --keypair ~/.config/solana/id.json --price 1
-: get the Candy Machine Pubkey from the above
-ts-node ./js/packages/cli/src/candy-machine-cli.ts update_candy_machine --keypair ~/.config/solana/id.json --date '1 Oct 2021 00:00:00 EST'
-: get the time from the above
+You should delete .cache/\* before you try and re-use assets
+
+### Upload all of your assets to arweave
+
+`yarn run upload:assets`
+
+### Create the candy machine with the assets you uploaded
+
+`yarn run create:machine`
+
+**Important: Look at the output from this command as it contains your Candy Machine's public key**
+
+### Set the release date of the candy machine
+
+`yarn run modify:release-date`
+
+**Important: Look at the ouput of this command as it contains the unix timestamp you'll need for later**
