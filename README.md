@@ -10,6 +10,9 @@ GET R DONE
 
 You should delete .cache/\* before you try and re-use assets
 
+16 dont work
+nvm use 15
+
 ### Upload all of your assets to arweave
 
 `yarn run upload:assets`
